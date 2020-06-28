@@ -1,2 +1,2 @@
-# Practice-Repository
-練習用
+# Neta
+ネタ用
