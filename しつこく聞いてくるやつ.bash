@@ -10,4 +10,6 @@ if [[ ${YN} = [yY] ]]; then
     else
     fi
   done
-done
+else
+  exit 0;;
+fi
