@@ -1,12 +1,14 @@
-loop do
- puts "なにか入力してください"
+while true
+ print "なにか入力してください >"
  nanka = gets
- puts "続けますか?"
+ puts nanka
+ print "続けますか? [y/N] :"
  YN = gets
- if YN = n then
-  exit!
+ case YN
+ when /^[yY]/
+  puts "OK"
  end
- if YN = N then
+ when /^[nN]/, /^$/
   exit!
  end
 end
