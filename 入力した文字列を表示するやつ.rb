@@ -1,14 +1,14 @@
 while true
  print "なにか入力してください >"
- nanka = gets
+ nanka = gets.chomp
  puts nanka
  print "続けますか? [y/N] :"
- YN = gets
+ YN = gets.chomp
  case YN
- when /^[yY]/
-  puts "OK"
- end
- when /^[nN]/, /^$/
-  exit!
+   when /^[yY]/
+     puts "OK"
+   when /^[nN]/, /^$/
+     break
+     exit!
  end
 end
