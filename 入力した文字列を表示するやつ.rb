@@ -9,6 +9,5 @@ while true
      puts "OK"
    when /^[nN]/, /^$/
      break
-     exit!
  end
 end
