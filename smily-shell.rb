@@ -16,7 +16,7 @@ elsif command == "hisashiburi" then
 elsif command == "omoimasu" then
   puts "おおおおおおおお思いまーす"
 elsif command == "icon" then
-  lines = "smily.txt"
+  lines = "smily-shell/smily.txt"
   lines.each do |line|
     puts line
   end
