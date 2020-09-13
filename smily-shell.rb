@@ -16,7 +16,10 @@ elsif command == "hisashiburi" then
 elsif command == "omoimasu" then
   puts "おおおおおおおお思いまーす"
 elsif command == "icon" then
-  puts "アイコン表示できないよ"
+  lines = "smily.txt"
+  lines.each do |line|
+    puts line
+  end
 elsif command == "exit" then
   puts "Thank you for using!"
   break
