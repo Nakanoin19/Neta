@@ -4,6 +4,7 @@
 # Twitter Hashtag: #スマイリーイラスト
 
 puts "Smily Shell"
+loop {
 print ">"
 command = gets.chomp
 if command == "twitterid" then
@@ -18,7 +19,9 @@ elsif command == "icon" then
   puts "アイコン表示できないよ"
 elsif command == "exit" then
   puts "Thank you for using!"
+  break
   exit
 else
   puts "#{command} : Not Found"
 end
+}
