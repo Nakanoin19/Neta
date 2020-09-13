@@ -35,7 +35,7 @@ elsif command == "icon" then
   puts " .MHb       .MHMx                 (HHF       .HM^"
   puts "  ,MHb       .WHHN,             .HHHY       .HHt"
   puts "   ,MHh.       ?MHHNa..   ` ..gHHHB'       (HHt"
-  puts "    .HHN,        -TMHHHHH#HHHHH#``       .HHM^"
+  puts "    .HHN,        -TMHHHHH%HHHHH%``       .HHM^"
   puts "      7MHN,          _?``````^`         .dHHY"
   puts "        TMHNJ.                      ..HHHY`"
   puts "          ?WHHNa,.              ..(HHHH`"
