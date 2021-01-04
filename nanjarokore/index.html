@@ -17,8 +17,9 @@
   <body>
     <h1>HTMLの<code>script</code>タグの練習用(ほんとはただのおふざけ)</h1>
     <h2>なんじゃろこれ。</h2>
+    <input type="text" id="thisis">
     <script>
-      var thisis = "apple" 
+      var thisis = document.getElementById("thisis").value;
       var thisis1 = thisis.slice( 0, 1 ) ;
       if (thisis1 == "a" || thisis1 == "i" || thisis1 == "u" || thisis1 == "e" || thisis1 == "o") {
         document.write("This is an " + thisis + ".") ;
